@@ -10,11 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151201201114) do
+ActiveRecord::Schema.define(version: 20181202051907) do
 
   create_table "articles", force: :cascade do |t|
     t.string "name"
     t.string "content"
+    t.string "title"
   end
 
 end
